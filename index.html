@@ -1,32 +1,122 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <title>Forsaken Roblox</title>
+<meta charset="UTF-8">
+<title>Forsaken Roblox</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: radial-gradient(circle at top, #111 0%, #000 70%);
+    color: #eee;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+    background: linear-gradient(90deg, #6b0000, #000);
+    box-shadow: 0 0 20px #ff0000;
+}
+
+header h1 {
+    font-size: 48px;
+    color: #ff4444;
+    text-shadow: 0 0 10px red;
+}
+
+header p {
+    color: #aaa;
+}
+
+section {
+    padding: 30px;
+}
+
+h2 {
+    font-size: 32px;
+    border-left: 6px solid red;
+    padding-left: 10px;
+    color: #ff6666;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.card {
+    background: linear-gradient(180deg, #111, #000);
+    border: 1px solid #333;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 0 10px #000;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px red;
+    border-color: red;
+}
+
+.card a {
+    color: #66aaff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.card a:hover {
+    color: #ffffff;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+    font-size: 14px;
+}
+</style>
 </head>
+
 <body>
-  <h1>Forsaken Roblox</h1>
-  <p>Сайт работает 🎉</p>
 
-  <h2>Киллеры</h2>
-  <ul>
-    <li><a href="noli.html">Noli</a></li>
-    <li><a href="1x4.html">1x1x1x1</a></li>
-    <li><a href="guest666.html">Guest 666</a></li>
-    <li><a href="nosferatu.html">Nosferatu</a></li>
-  </ul>
+<header>
+    <h1>Forsaken Roblox</h1>
+    <p>Веб-энциклопедия персонажей</p>
+</header>
 
-  <h2>Выжившие</h2>
-  <ul>
-    <li><a href="shedletsky.html">Shedletsky</a></li>
-    <li><a href="guest1337.html">Guest 1337</a></li>
-    <li><a href="twotime.html">Two Time</a></li>
-    <li><a href="chance.html">Chance</a></li>
-    <li><a href="elliot.html">Elliot</a></li>
-    <li><a href="dusekkar.html">Dusekkar</a></li>
-    <li><a href="builderman.html">Builderman</a></li>
-    <li><a href="noob.html">Noob</a></li>
-    <li><a href="veeronica.html">Veeronica</a></li>
-  </ul>
+<section>
+    <h2>Киллеры</h2>
+    <div class="grid">
+        <div class="card"><a href="#">Noli</a></div>
+        <div class="card"><a href="#">1x1x1x1</a></div>
+        <div class="card"><a href="#">Guest 666</a></div>
+        <div class="card"><a href="#">Nosferatu</a></div>
+    </div>
+</section>
+
+<section>
+    <h2>Выжившие</h2>
+    <div class="grid">
+        <div class="card"><a href="#">Shedletsky</a></div>
+        <div class="card"><a href="#">Guest 1337</a></div>
+        <div class="card"><a href="#">Two Time</a></div>
+        <div class="card"><a href="#">Chance</a></div>
+        <div class="card"><a href="#">Elliot</a></div>
+        <div class="card"><a href="#">Dusekkar</a></div>
+        <div class="card"><a href="#">Builderman</a></div>
+        <div class="card"><a href="#">Noob</a></div>
+        <div class="card"><a href="#">Veeronica</a></div>
+    </div>
+</section>
+
+<footer>
+    Forsaken Fan Site • GitHub Pages
+</footer>
+
 </body>
 </html>
